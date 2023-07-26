@@ -1,15 +1,17 @@
-fun main(){
-    println("Enter the num")
-    var num = readln()!!.toInt()
-    var result = fact(num)
-    println("fact = "+result)
+fun main() {
+    print("Enter Number : ")
+    var num = readLine()!!.toInt()
+    var result : Int
+    result = fact(num)
+    println("Factorial of $num = $result")
+    println("By TailRec Keyword, Factorial of $num = $result")
 }
 
-fun fact(num:Int):Int {
-    if (num == 0 || num == 1) {
-        return 1
+tailrec fun fact(n: Int): Int {
+    return if (n == 1){
+        n
     }
-    else{
-        return num * fact(num-1)
+    else {
+        n * fact(n-1)
     }
 }

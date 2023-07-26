@@ -1,26 +1,30 @@
-fun main(){
-    var s = "Student Name"
-    println("$s")
+fun main() {
+    print("student Enrollment No.: ")
     var a = readLine()
-    println("$a")
+    print("student Name : ")
+    var b = readLine()
+    print("student Branch : ")
+    var c = readLine()
+    print("student Class : ")
+    var d = readLine()
+    print("student Batch : ")
+    var e = readLine()
+    print("student College Name : ")
+    var f = readLine()
+    print("student University Name : ")
+    var g = readLine()
+    print("student Age : ")
+    var h = readLine()
 
-    var s1 = "Student Enrollment"
-    println("$s1")
-    var a1 = readLine()
-    println("$a1")
+    println("*********************************")
 
-    var s2 = "Student Branch"
-    println("$s2")
-    var a2 = readLine()
-    println("$a2")
-
-    var s3 = "Student class"
-    println("$s3")
-    var a3 = readLine()
-    println("$a3")
-
-    var s4 = "Student Branch"
-    println("$s4")
-    var a4 = readLine()
-    println("$a4")
+    println("Student's Data : ")
+    println("Enrollment No. : "+a)
+    println("Name : "+b)
+    println("Age : "+h)
+    println("Branch : "+c)
+    println("Class : "+d)
+    println("Batch : "+e)
+    println("College Name : "+f)
+    println("University Name : "+g)
 }

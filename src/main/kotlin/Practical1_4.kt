@@ -1,11 +1,12 @@
-fun main(){
-    println("Enter the number")
+fun main() {
+    println("Enter Number : ")
+    val num = readLine()!!.toInt()
 
-    var a1 = readLine()!!.toInt()
-    if(a1%2==0){
-        println("even")
+
+    if (num % 2 == 0){
+        println("$num is even.")
     }
-    else{
-        println("odd")
+    else {
+        println("$num is odd.")
     }
 }
